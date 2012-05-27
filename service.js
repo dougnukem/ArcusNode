@@ -43,8 +43,8 @@ process.argv.forEach(function (val, index, array) {
           '### USAGE ###\n\n' +
           'node service.js [argument1 argument2 ...]\n\n' +
           'Arguments:\n' +
-          'logLevel=[level]            [level] can be one of: fatal, error, warn, info, debug' +
-          'logFile=[path]              [path] The path to a file to log output to' +
+          '\tlogLevel=[level]            [level] can be one of: fatal, error, warn, info, debug\n' +
+          '\tlogFile=[path]              [path] The path to a file to log output to' +
           '\n\n'
         );
         process.exit();
